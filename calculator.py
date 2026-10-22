@@ -1,5 +1,3 @@
-import unittest
-
 class Calculator():
     def sum(self, *args):
         return sum(args)

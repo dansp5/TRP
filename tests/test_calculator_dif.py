@@ -1,4 +1,4 @@
-from src.calculator import Calculator
+from calculator import Calculator
 def test_dif_no_args():
     Calculator().dif()
 def test_dif_positive():

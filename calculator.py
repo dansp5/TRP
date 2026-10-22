@@ -1,5 +1,5 @@
 class Calculator():
-    #Сумма
+    #Сумма ч
     def sum(self, *args):
         return sum(args)
     def dif(self, a = 0, b = 0):

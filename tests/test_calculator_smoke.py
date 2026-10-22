@@ -1,6 +1,6 @@
 from calculator import Calculator
 def test_calculator_exists():
-        assertIsNotNone(Calculator())
+  Calculator()
 
     # --- smoke-тесты: вызов не падает ---
 def test_sum_no_args():

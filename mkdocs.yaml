@@ -1,5 +1,8 @@
 site_name: My Project
+site_description: Документация проекта
 theme:
   name: material
 nav:
-  - Home: index.md
+  - Главная: index.md
+  - Установка: installation.md
+  - Использование: usage.md

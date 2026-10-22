@@ -37,7 +37,7 @@ jobs:
           pip install pytest
 
       - name: Run tests
-        run: pytest -v
+        run: python -m pytest -v
         
   build-docs:
     needs: test

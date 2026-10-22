@@ -1,13 +1,13 @@
 from calculator import Calculator
-def test_calculator_exists(self):
-        self.assertIsNotNone(Calculator())
+def test_calculator_exists():
+        assertIsNotNone(Calculator())
 
     # --- smoke-тесты: вызов не падает ---
-def test_sum_no_args(self):
+def test_sum_no_args():
   Calculator().sum()
 
-def test_sum_one_pair_no_check(self):
+def test_sum_one_pair_no_check():
   Calculator().sum(2, 2)
 
-def test_dif_no_args(self):
+def test_dif_no_args():
   Calculator().dif()

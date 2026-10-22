@@ -1,4 +1,4 @@
-from src.calculator import Calculator
+from calculator import Calculator
 def test_sum_two_numbers(self):
     self.assertEqual(Calculator().sum(2, 2), 4)
 
